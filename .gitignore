@@ -1,0 +1,38 @@
+# Secrets
+.env
+.env.*
+!.env.example
+localweb_settings*.json
+
+# Runtime inputs and outputs
+input.csv
+output.csv
+remote_result.json
+jobs/
+localweb_uploads/
+input_images/*
+output_images/*
+!input_images/.gitkeep
+!output_images/.gitkeep
+all_to_once_script/import/*
+all_to_once_script/work/*
+all_to_once_script/export/*
+!all_to_once_script/import/.gitkeep
+!all_to_once_script/work/.gitkeep
+!all_to_once_script/export/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# macOS
+.DS_Store
+**/.DS_Store

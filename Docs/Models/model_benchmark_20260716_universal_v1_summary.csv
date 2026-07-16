@@ -1,0 +1,8 @@
+﻿configuration,model,steps,status,ok,failed,not_run,pipeline_load_seconds,image_seconds_total,image_seconds_average,wall_seconds,estimated_cost_usd,output_dir,error
+9b_8steps,9B,8,done,7,0,0,14.649,23.5832,3.369,55.6541,0.063906,output_images/model_tests/9b_8steps,
+9b_16steps,9B,16,done,7,0,0,13.7108,36.4642,5.2092,63.3085,0.072695,output_images/model_tests/9b_16steps,
+9b_32steps,9B,32,done,7,0,0,14.0144,62.6975,8.9568,127.2626,0.146132,output_images/model_tests/9b_32steps,
+kwr_8steps,KWR,8,done,7,0,0,15.5513,41.4766,5.9252,83.2326,0.095574,output_images/model_tests/kwr_8steps,
+kwr_16steps,KWR,16,done,7,0,0,15.8826,70.0978,10.014,95.5555,0.109723,output_images/model_tests/kwr_16steps,
+kwr_32steps,KWR,32,done,7,0,0,15.1038,128.743,18.3919,161.1482,0.185042,output_images/model_tests/kwr_32steps,
+4b_16steps,4B,16,done,7,0,0,9.0205,25.1045,3.5864,58.7212,0.067428,output_images/model_tests/4b_16steps,

@@ -1,0 +1,58 @@
+{
+  "9B": {
+    "label": "FLUX.2-klein-9B",
+    "description": "FLUX.2 Klein 9B，step-distilled，H200 上速度快、成本低（建議預設）",
+    "pipeline": "flux2_klein",
+    "model_id": "black-forest-labs/FLUX.2-klein-9B",
+    "base_hf_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-9B",
+    "lora_id": null,
+    "lora_weight": null,
+    "adapter_hf_url": null,
+    "hf_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-9B",
+    "default_steps": 8,
+    "guidance_scale": 1.0,
+    "recommended_gpu": "H200"
+  },
+  "4B": {
+    "label": "FLUX.2-klein-4B",
+    "description": "FLUX.2 Klein 4B，Apache 2.0，速度快、顯存需求較低，適合低成本批量測試",
+    "pipeline": "flux2_klein",
+    "model_id": "black-forest-labs/FLUX.2-klein-4B",
+    "base_hf_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+    "lora_id": null,
+    "lora_weight": null,
+    "adapter_hf_url": null,
+    "hf_url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-4B",
+    "default_steps": 8,
+    "guidance_scale": 1.0,
+    "recommended_gpu": "H100"
+  },
+  "KONTEXT": {
+    "label": "FLUX.1-Kontext-dev",
+    "description": "FLUX.1 Kontext 基礎圖像編輯模型，沒有專用去水印 LoRA",
+    "pipeline": "kontext",
+    "model_id": "black-forest-labs/FLUX.1-Kontext-dev",
+    "base_hf_url": "https://huggingface.co/black-forest-labs/FLUX.1-Kontext-dev",
+    "lora_id": null,
+    "lora_weight": null,
+    "adapter_hf_url": null,
+    "hf_url": "https://huggingface.co/black-forest-labs/FLUX.1-Kontext-dev",
+    "default_steps": 28,
+    "guidance_scale": 2.5,
+    "recommended_gpu": "H200"
+  },
+  "KWR": {
+    "label": "FLUX.1-Kontext-dev + Kontext-Watermark-Remover",
+    "description": "FLUX.1 Kontext 底座 + 專用去水印 LoRA 適配器",
+    "pipeline": "kontext",
+    "model_id": "black-forest-labs/FLUX.1-Kontext-dev",
+    "base_hf_url": "https://huggingface.co/black-forest-labs/FLUX.1-Kontext-dev",
+    "lora_id": "prithivMLmods/Kontext-Watermark-Remover",
+    "lora_weight": "Kontext-Watermark-Remover.safetensors",
+    "adapter_hf_url": "https://huggingface.co/prithivMLmods/Kontext-Watermark-Remover",
+    "hf_url": "https://huggingface.co/prithivMLmods/Kontext-Watermark-Remover",
+    "default_steps": 24,
+    "guidance_scale": 2.5,
+    "recommended_gpu": "H200"
+  }
+}
