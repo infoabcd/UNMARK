@@ -71,6 +71,10 @@ LOGO去掉了，一些細節也沒有了：
 線稿粗黑筆 提示詞：
 ![ari_artdrawing](./Docs/Examples/results/ari_artdrawing.jpg)
 
+***真有這麼好的效果？還是說我放了原圖出來？** - 下面這張是原圖，請看眼睛。*
+
+![ari_artdrawing_original](./Docs/Examples/ari.artdrawing_original.jpg)
+
 二維碼 提示詞：
 ![watermarking-result](./Docs/Examples/results/watermarking-result.png)
 
